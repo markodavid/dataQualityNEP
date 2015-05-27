@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Creador de reglas</title>
+</head>
+<body>
+<h1>Creación de reglas</h1>
+<form action="/guardaRegla" method="post">
+
+    <div>
+        <h3>Seleccione evento</h3>
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            Seleccione evento
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+        </ul>
+    </div>
+
+<div>
+<h3>Seleccione campo</h3>
+    <select id="dataElementId" name="dataElementId" size="9" style="width:100%" ondblclick="insertText( 'expression', this.value )" class="valid">
+        <option value="#{m9xNrQ3QZ4V.u0nekLI7cgN}">academia animales 3</option><option value="#{RwRuTCPDObb.u0nekLI7cgN}">ACADEMIA CENSO CANINO Y FELINO 2</option><option value="#{G8WopaDrAgG.u0nekLI7cgN}">ACADEMIA CENSO CANINOS FELINOS 22</option><option value="#{cgkOqlrk0SY.u0nekLI7cgN}">academia rabia 3</option><option value="#{pvwWXrcKCKx.u0nekLI7cgN}">academia vacfelina</option><option value="#{DS2ukMKjnqB}">ACADEMIA VACUNACION CANINA Y FELINA 2 (Total)</option><option value="#{DS2ukMKjnqB.T1aOiveYBRq}">ACADEMIA VACUNACION CANINA Y FELINA 2 (Machos, Primera vez)</option><option value="#{DS2ukMKjnqB.tYmvfcnJhhn}">ACADEMIA VACUNACION CANINA Y FELINA 2 (Machos, Revacunacion)</option><option value="#{DS2ukMKjnqB.sEObZ94NDE8}">ACADEMIA VACUNACION CANINA Y FELINA 2 (Hembras, Primera vez)</option><option value="#{DS2ukMKjnqB.CzhC978ciAg}">ACADEMIA VACUNACION CANINA Y FELINA 2 (Hembras, Revacunacion)</option><option value="#{o78sHl5aYIT.u0nekLI7cgN}">ACADEMIA VACUNACIONA CANINA FELINA 22</option><option value="#{DopAs1Y4C9i.u0nekLI7cgN}">academia_BCG</option><option value="#{s6Z95lqzqgk.u0nekLI7cgN}">academia_Polio</option><option value="#{fZxHjxoadZA}">ACADENIA VACUNACION CANINA Y FELINA  (Total)</option><option value="#{fZxHjxoadZA.T1aOiveYBRq}">ACADENIA VACUNACION CANINA Y FELINA  (Machos, Primera vez)</option><option value="#{fZxHjxoadZA.tYmvfcnJhhn}">ACADENIA VACUNACION CANINA Y FELINA  (Machos, Revacunacion)</option><option value="#{fZxHjxoadZA.sEObZ94NDE8}">ACADENIA VACUNACION CANINA Y FELINA  (Hembras, Primera vez)</option><option value="#{fZxHjxoadZA.CzhC978ciAg}">ACADENIA VACUNACION CANINA Y FELINA  (Hembras, Revacunacion)</option><option value="#{MP83yVVmlSM}">ali_beb_apoyo_a_otros_municipios (Total)</option><option value="#{MP83yVVmlSM.OCm881ssGYn}">ali_beb_apoyo_a_otros_municipios (Expend. Ali. Ambulantes)</option><option value="#{MP83yVVmlSM.awSYu9H0SB6}">ali_beb_apoyo_a_otros_municipios (Expend. Ali. Bares Cantinas Discotecas)</option><option value="#{MP83yVVmlSM.hYbnZBt2AEd}">ali_beb_apoyo_a_otros_municipios (Expend. Ali. Cárnicos)</option><option value="#{MP83yVVmlSM.jw19zKe8rxq}">ali_beb_apoyo_a_otros_municipios (Expend. Ali. derivados Cárnicos)</option><option value="#{MP83yVVmlSM.va7kfoRLCNu}">ali_beb_apoyo_a_otros_municipios (Expend. Ali. derivados lácteos)</option><option value="#{MP83yVVmlSM.Nhsfq3JwYKg}">ali_beb_apoyo_a_otros_municipios (Expend. Ali. Estacionarios)</option><option value="#{MP83yVVmlSM.a4vDH2wjfkc}">ali_beb_apoyo_a_otros_municipios (Expend. Ali. leche)</option><option value="#{MP83yVVmlSM.IIzLObCgLNN}">ali_beb_apoyo_a_otros_municipios (Expend. Ali. Plazas de mercado)</option><option value="#{MP83yVVmlSM.GT5fLECiJuC}">ali_beb_apoyo_a_otros_municipios (Expend. Ali. Tiendas Graneros)</option><option value="#{MP83yVVmlSM.cE0gyHbqTbF}">ali_beb_apoyo_a_otros_municipios (Expend. Ali. Vehículos Transportadores)</option><option value="#{MP83yVVmlSM.F1tfgHO7b8u}">ali_beb_apoyo_a_otros_municipios (Expend. Preparación Ali. Cafeterías)</option><option value="#{MP83yVVmlSM.E5kT68uldfk}">ali_beb_apoyo_a_otros_municipios (Expend. Preparación Ali. Rest.)</option><option value="#{MP83yVVmlSM.EHoiDmhqFGU}">ali_beb_apoyo_a_otros_municipios (Expend. Preparación Ali. Restaurantes Escolares)</option><option value="#{MP83yVVmlSM.YYDRfujEXNU}">ali_beb_apoyo_a_otros_municipios (Expend. Preparación Ali. Restaurantes IPS)</option><option value="#{Fu6t8GSmG3h}">ali_beb_con_otra_acta (Total)</option><option value="#{Fu6t8GSmG3h.OCm881ssGYn}">ali_beb_con_otra_acta (Expend. Ali. Ambulantes)</option><option value="#{Fu6t8GSmG3h.awSYu9H0SB6}">ali_beb_con_otra_acta (Expend. Ali. Bares Cantinas Discotecas)</option><option value="#{Fu6t8GSmG3h.hYbnZBt2AEd}">ali_beb_con_otra_acta (Expend. Ali. Cárnicos)</option><option value="#{Fu6t8GSmG3h.jw19zKe8rxq}">ali_beb_con_otra_acta (Expend. Ali. derivados Cárnicos)</option><option value="#{Fu6t8GSmG3h.va7kfoRLCNu}">ali_beb_con_otra_acta (Expend. Ali. derivados lácteos)</option><option value="#{Fu6t8GSmG3h.Nhsfq3JwYKg}">ali_beb_con_otra_acta (Expend. Ali. Estacionarios)</option><option value="#{Fu6t8GSmG3h.a4vDH2wjfkc}">ali_beb_con_otra_acta (Expend. Ali. leche)</option><option value="#{Fu6t8GSmG3h.IIzLObCgLNN}">ali_beb_con_otra_acta (Expend. Ali. Plazas de mercado)</option><option value="#{Fu6t8GSmG3h.GT5fLECiJuC}">ali_beb_con_otra_acta (Expend. Ali. Tiendas Graneros)</option><option value="#{Fu6t8GSmG3h.cE0gyHbqTbF}">ali_beb_con_otra_acta (Expend. Ali. Vehículos Transportadores)</option><option value="#{Fu6t8GSmG3h.F1tfgHO7b8u}">ali_beb_con_otra_acta (Expend. Preparación Ali. Cafeterías)</option><option value="#{Fu6t8GSmG3h.E5kT68uldfk}">ali_beb_con_otra_acta (Expend. Preparación Ali. Rest.)</option><option value="#{Fu6t8GSmG3h.EHoiDmhqFGU}">ali_beb_con_otra_acta (Expend. Preparación Ali. Restaurantes Escolares)</option><option value="#{Fu6t8GSmG3h.YYDRfujEXNU}">ali_beb_con_otra_acta (Expend. Preparación Ali. Restaurantes IPS)</option><option value="#{oqG6qF4mpKN}">ali_beb_concepto_favorable (Total)</option><option value="#{oqG6qF4mpKN.OCm881ssGYn}">ali_beb_concepto_favorable (Expend. Ali. Ambulantes)</option></select>
+</div>
+
+<input type="submit" value="Enviar"/>
+</form>
+</body>
+</html>
